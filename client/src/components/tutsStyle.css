@@ -1,0 +1,93 @@
+.tut-heading{
+    text-align:center;
+    padding: 4rem 0 2ren 0;
+
+}
+
+.project-container{
+    max-width:1140px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap:40px;
+    color:white;
+    padding-bottom:5rem;
+}
+
+.tut-card{
+    background:#1a1919;
+    padding:1.2rem 1rem;
+}
+
+.tut-card img{
+    width:100%
+}
+
+.tut-title{
+    color:#ffff;
+    padding: 1rem 0;
+    text-align:center;
+
+}
+
+.tut-details p{
+    padding-bottom:1rem;
+    font-size:1.1rem;
+    text-align:center;
+    
+}
+
+.tut-heading{
+    color:#eee;
+    font-size:3rem;
+    text-align:center;
+}
+
+@media screen and (max-width:740px){
+
+    .project-container{
+        max-width:90%;
+        margin:auto;    
+        grid-template-columns:1fr;
+        grid-gap:40px;        
+    }    
+}
+
+.tut-btn{
+    display:flex;
+    justify-content:center;
+    padding:0.5rem 0;
+}
+
+
+
+
+
+
+
+.tut-btn {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .tut-btn:hover {
+    background: #ebebeb;
+    background-image: -webkit-linear-gradient(top, #ebebeb, #f7f7f7);
+    background-image: -moz-linear-gradient(top, #ebebeb, #f7f7f7);
+    background-image: -ms-linear-gradient(top, #ebebeb, #f7f7f7);
+    background-image: -o-linear-gradient(top, #ebebeb, #f7f7f7);
+    background-image: linear-gradient(to bottom, #ebebeb, #f7f7f7);
+    text-decoration: none;
+  }
